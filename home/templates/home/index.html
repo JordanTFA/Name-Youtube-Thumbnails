@@ -1,18 +1,19 @@
 <!-- Loads static files -->
 
 {% load staticfiles %}
-<link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
 		
 		<!-- Logo -->
 		<div class="navbar-header">
-			<a href="{% url 'homepage:index' %}" class="btn btn-success">Home</a>
-			<button type="button" class="btn btn-success" data-toggle="modal" data-target="#popUpWindow">Upload</button>
+            <a class="navbar-brand" href="{% url 'homepage:index' %}">Home</a>
+			<a class="navbar-brand" data-toggle="modal" data-target="#popUpWindow">Upload</a>
 
     <div class="modal fade" id="popUpWindow">
         <div class="modal-dialog">
@@ -37,4 +38,10 @@
 	</div>
 </nav>
 
-<h1>Home Page</h1>
+<body>
+
+    <h1>Home Page</h1>
+
+    <center><img src="{% static 'home/images/example.png' %}" alt="Mountain View" style="width:608px;height:456px;"></center>
+
+</body>
