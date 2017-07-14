@@ -5,4 +5,5 @@ urlpatterns = [
 	url(r'^$', include('home.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^edit/', include('edit.urls')),
+    url(r'^about/', include('about.urls')),
 ]
