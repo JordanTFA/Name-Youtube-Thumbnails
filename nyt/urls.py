@@ -4,10 +4,10 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 urlpatterns = [
-	url(r'^$', include('home.urls')),
+	url(r'', include('home.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^edit/', include('edit.urls')),
-    url(r'^about/', include('about.urls')),
+    #url(r'^about/', include('home.urls')),
 ]
 
 if settings.DEBUG:
