@@ -4,4 +4,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-	return HttpResponse('Edit Page')
+	return render(request, 'edit/edit.html', {'context': "context"})
