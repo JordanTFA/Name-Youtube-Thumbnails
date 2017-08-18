@@ -1,7 +1,8 @@
 {% extends 'edit/base.html' %}
 {% load staticfiles %}
+{% block content %}
 
-	<div class="editimg">
-		<h1><center>Edit Your Image</center></h1>
-		<center><img src="{% static 'edit/img/SampleIMG.png' %}" alt="Sample-IMG" style="width:1280px;height:720px; border="5"></img></center>
-	</div>
+	<h1><center>Edit Your Image</center></h1>
+	<center><img src="{% static 'edit/img/SampleIMG.png' %}" alt="Sample-IMG" style="width:1280px;height:720px; border="5"></img></center>
+
+{% endblock %}
