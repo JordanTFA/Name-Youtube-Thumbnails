@@ -1,6 +1,5 @@
-
 body{
-	background: white url("images/background.png");
+  background: white url("images/background.png");
 }
 
 .navbar-default {
@@ -71,4 +70,16 @@ body{
     color: #d1ffed;
     background-color: #27ae60;
   }
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
 }
