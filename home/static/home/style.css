@@ -80,6 +80,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .content {
+  background-color: white;
+  width: 1000px;
+  margin: auto;
+  border-style: solid;
+  border-color: gold;
+  border-width: 3px;
+}
+
+.footer{
   flex: 1;
 }
