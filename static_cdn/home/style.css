@@ -81,11 +81,19 @@ body {
   flex-direction: column;
 }
 
-.content {
-  background-color: red;
+.aboutcontent {
+  background-color: white;
+  width: 1000px;
+  margin: auto;
+  border-style: solid;
+  border-color: gold;
+  border-width: 3px;
 }
 
 .footer{
-  background-color: blue;
   flex: 1;
+}
+
+.popUpWindow{
+  background-color: red;
 }

@@ -81,7 +81,7 @@ body {
   flex-direction: column;
 }
 
-.content {
+.aboutcontent {
   background-color: white;
   width: 1000px;
   margin: auto;
@@ -92,4 +92,8 @@ body {
 
 .footer{
   flex: 1;
+}
+
+.popUpWindow{
+  background-color: red;
 }
